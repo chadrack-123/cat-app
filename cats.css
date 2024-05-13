@@ -1,0 +1,47 @@
+body{
+    background-color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cat{
+    background-color: aqua;
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid;
+    flex: 1;
+}
+
+
+
+@media (min-width:960px){
+    .cats{
+        display: flex;
+    }
+}
+
+fieldset{
+    margin: 1em;
+    border: 0;
+
+}
+
+button{
+    padding: 1em;
+    border:1px solid;
+    border-radius: 0.5em;
+}
+
+input{
+    padding: 1em;
+
+}
+
+.footer {
+    text-align: center; 
+  }
+  
+  .footer footer {
+    margin: 0 auto; 
+    width: fit-content; 
+  }
